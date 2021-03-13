@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(193, 243, 206);
+}
+
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: rgb(226, 137, 137);
+    padding: 1.25rem;
+    border-radius: 10px;
+    text-align: center;
+    border: black solid 1px;
+}
+
+h1{
+    margin-top: 0;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: black solid 1px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+}
+
+#adults{
+    margin-top: 15px;
+}
+
+button{
+    padding: 10px;
+    border: black solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
