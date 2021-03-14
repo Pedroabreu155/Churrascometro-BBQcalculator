@@ -25,7 +25,7 @@ function calculate(){
     let otherDrinksTotal = otherDrinksByPerson(duration) * adults + (otherDrinksByPerson(duration) / 2 * child);
     //console.log(otherDrinksTotal);
 
-    result.innerHTML = `<p>${meatTotal / 1000}kg de Carne`
+    result.innerHTML = `<p>${(meatTotal / 1000).toFixed(1)} kg de Carne`
     result.innerHTML += `<p>${Math.ceil(beerTotal / 355)} Latas de Cerveja`
     result.innerHTML += `<p>${Math.ceil(otherDrinksTotal / 2000)} Garrafas PET's de Bebidas`
 }
